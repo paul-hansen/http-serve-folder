@@ -1,3 +1,10 @@
+
+[![Crates.io](https://img.shields.io/crates/v/http-folder-server)](https://crates.io/crates/http-folder-server)
+[![Crates.io](https://img.shields.io/crates/d/http-folder-server)](https://crates.io/crates/http-folder-server)
+[![MIT/Apache 2.0](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](#License)
+
+# http-folder-server
+
 A command line configurable, single executable server for hosting a folder over HTTP. Only intended for use in local development/testing. 
 
 I created this because no minimal servers I found supported setting custom response headers, and I needed to be able to test locally while using [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements).

@@ -58,7 +58,7 @@ impl std::fmt::Display for Level {
 ///
 #[derive(Parser)]
 #[clap(author, version, about)]
-pub struct Cli {
+struct Cli {
     /// The folder you want to host
     #[clap(value_parser, value_hint = clap::ValueHint::DirPath)]
     dir: Option<PathBuf>,
