@@ -6,6 +6,7 @@ edition = "2021"
 keywords = ["server", "file server", ]
 repository = "https://github.com/paul-hansen/http-folder-server"
 description = "A configurable HTTP server that hosts a folder. Suitable for local testing."
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
