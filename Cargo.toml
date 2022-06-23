@@ -1,0 +1,15 @@
+[package]
+authors = ["Paul Hansen <mail@paul.rs>"]
+name = "http-folder-server"
+version = "0.1.0"
+edition = "2021"
+keywords = ["server", "file server", ]
+repository = "https://github.com/paul-hansen/http-folder-server"
+description = "A configurable HTTP server that hosts a folder. Suitable for local testing."
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+warp = "0.3"
+clap = {version = "3.2.6", features = ["derive"]}
+tracing = "0.1.35"
+tracing-subscriber = "0.3.11"
