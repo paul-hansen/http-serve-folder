@@ -1,11 +1,11 @@
 [package]
 authors = ["Paul Hansen <mail@paul.rs>"]
-name = "http-folder-server"
+name = "http-serve-folder"
 version = "0.1.0"
 edition = "2021"
 keywords = ["server", "host", "cli", "files"]
 categories = ["command-line-utilities", "web-programming::http-server"]
-repository = "https://github.com/paul-hansen/http-folder-server"
+repository = "https://github.com/paul-hansen/http-serve-folder"
 description = "A configurable HTTP server that hosts a folder. Suitable for local testing."
 license = "MIT OR Apache-2.0"
 

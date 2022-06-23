@@ -6,7 +6,7 @@ on:
       - '*'
 
 env:
-  binary: http-folder-server
+  binary: http-serve-folder
 
 
 jobs:

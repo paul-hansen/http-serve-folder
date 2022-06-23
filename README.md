@@ -1,21 +1,21 @@
 
-[![Crates.io](https://img.shields.io/crates/v/http-folder-server)](https://crates.io/crates/http-folder-server)
-[![Crates.io](https://img.shields.io/crates/d/http-folder-server)](https://crates.io/crates/http-folder-server)
+[![Crates.io](https://img.shields.io/crates/v/http-serve-folder)](https://crates.io/crates/http-serve-folder)
+[![Crates.io](https://img.shields.io/crates/d/http-serve-folder)](https://crates.io/crates/http-serve-folder)
 [![MIT/Apache 2.0](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](#License)
 
-# http-folder-server
+# http-serve-folder
 
 A command line configurable, single executable server for hosting a folder over HTTP. Only intended for use in local development/testing. 
 
 I created this because no minimal servers I found supported setting custom response headers, and I needed to be able to test locally while using [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements).
 
 ```
-http-folder-server 0.1.0
+http-serve-folder 0.1.0
 Paul Hansen <mail@paul.rs>
 A configurable HTTP server that hosts a folder. Suitable for local testing.
 
 USAGE:
-    http-folder-server[.exe] [OPTIONS] [DIR]
+    http-serve-folder[.exe] [OPTIONS] [DIR]
 
 ARGS:
     <DIR>    The folder you want to host
