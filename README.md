@@ -7,7 +7,7 @@
 
 A command line configurable, single executable server for hosting a folder over HTTP. Only intended for use in local development/testing. 
 
-I created this because no minimal servers I found supported setting custom response headers, and I needed to be able to test locally while using [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements).
+I created this because no minimal servers I found supported setting custom response headers, and I needed to be able to test locally while using [SharedArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer) which requires [certain headers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer#security_requirements) to be set.
 
 ## Usage
 
@@ -15,7 +15,7 @@ I created this because no minimal servers I found supported setting custom respo
 
 You can download the latest version from the [Releases](https://github.com/paul-hansen/http-serve-folder/releases/latest) page under "Assets".
 
-Or if you have Rust install you can compile and install it using:
+Or if you have Rust installed, you can compile and install it using:
 ```
 cargo install http-serve-folder
 ```
