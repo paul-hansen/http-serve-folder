@@ -29,24 +29,21 @@ http-serve-folder -h
 Which outputs:
 
 ```
-http-serve-folder 0.1.0
-Paul Hansen <mail@paul.rs>
-A configurable HTTP server that hosts a folder. Suitable for local testing.
+A configurable HTTP server that hosts a folder. Suitable for local
+testing.
 
-USAGE:
-    http-serve-folder[.exe] [OPTIONS] [DIR]
+Usage: http-serve-folder [OPTIONS] [DIR]
 
-ARGS:
-    <DIR>    The folder you want to host
+Arguments:
+  [DIR]  The folder you want to host
 
-OPTIONS:
-    -h, --help                       Print help information
-    -H, --header <HEADERS>           Headers to add to all file responses
-    -i, --ip_address <IP_ADDRESS>    The IP Address to bind to [default: 127.0.0.1]
-    -l, --log <LOG>                  The level of logging to display [default: info] [possible
-                                     values: debug, info, warn, error, off]
-    -p, --port <PORT>                The port number to bind to [default: 4040]
-    -V, --version                    Print version information
+Options:
+  -H, --header <HEADERS>         Headers to add to all file responses
+  -i, --ip_address <IP_ADDRESS>  The IP Address to bind to [default: 127.0.0.1]
+  -p, --port <PORT>              The port number to bind to [default: 4040]
+  -l, --log <LOG>                The level of logging to display [default: info] [possible values: debug, info, warn, error, off]
+  -h, --help                     Print help (see more with '--help')
+  -V, --version                  Print version
 ```
 
 ## License
