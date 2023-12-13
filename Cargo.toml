@@ -1,7 +1,7 @@
 [package]
 authors = ["Paul Hansen <mail@paul.rs>"]
 name = "http-serve-folder"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 keywords = ["server", "host", "cli", "files"]
 categories = ["command-line-utilities", "web-programming::http-server"]
@@ -15,6 +15,6 @@ exclude = [
 [dependencies]
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 warp = "0.3"
-clap = {version = "3.2.6", features = ["derive"]}
-tracing = "0.1.35"
-tracing-subscriber = "0.3.11"
+clap = {version = "4.4", features = ["derive"]}
+tracing = "0.1"
+tracing-subscriber = "0.3"
